@@ -5,5 +5,5 @@
 
 tamanho([], 0).
 tamanho([_|L], N) :-
-    tamanho(L,N1),
+    tamanho(L, N1),
     N is N1+1.
